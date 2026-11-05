@@ -1,0 +1,13 @@
+[package]
+name = "rs-slab-allocator"
+version = "1.0.0"
+edition = "2021"
+description = "Slab allocator for fixed-size object pooling"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-slab-allocator"
+keywords = ["rust", "slab", "allocator", "memory", "systems"]
+
+[[bin]]
+name = "rs_slab_allocator"
+path = "main.rs"
